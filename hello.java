@@ -44,7 +44,7 @@ public class FileUploadController {
 	@Autowired
 	NewStudentInfoService newStudentInfoService;
 	//你是不是傻啊
-	
+	//就是傻就是傻就是傻就是傻就是傻就是傻就是傻就是傻就是傻就是傻就是傻就是傻就是傻
 	@RequestMapping(value="/importexcel",method=RequestMethod.POST)
 	public String uploadExcel(HttpServletRequest request,Model model,@RequestParam("file") MultipartFile file) throws Exception, InvalidFormatException, IOException{
 		List<Phone> list = new ArrayList<Phone>();
